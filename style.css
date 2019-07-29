@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(228, 132, 97);
+}
+
+h1 {
+    margin: 0px auto 25px;
+    text-align: center;
+}
+
+.app {
+    max-width: 333px;
+    margin: 10px auto 0px; 
+    background-color: white;
+    border: 5px solid rgb(138, 37, 0);
+    border-radius: 50px 10px;
+    padding: 30px;
+}
+
+.btn-link {
+    border: 0px;
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 1rem;
+    float: right;
+}
+
+ul.todo {
+    list-style: none;
+    padding: 0px;
+}
+
+ul.todo li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+ul.todo li:last-child {
+    border-bottom: 0px;
+}
+
+form.add input[type="text"] {
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+form.add input[type="submit"] {
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 5px 7px;
+    border: 1px solid lightcoral;
+    background-color: rgb(221, 88, 40); 
+    color: #fff;
+}
+
+

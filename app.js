@@ -31,6 +31,7 @@ function createItem (val) {
     const item = document.createElement("li");
     const span = document.createElement("span");
     const delBtn = document.createElement("button");
+    delBtn.setAttribute("class", "deletebutton");
 
     span.textContent = val;
     delBtn.textContent = "Delete";
